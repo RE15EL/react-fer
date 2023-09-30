@@ -1,12 +1,12 @@
 import './App.css'
-import { PropsUse } from './components/props/PropsUse.jsx';
+import { CounterProps } from './components/counter/Counter-props.jsx';
 
 function App() {
 
   return (
     <>   
 
-      <PropsUse/>
+      <CounterProps />
   
     </>
   )
