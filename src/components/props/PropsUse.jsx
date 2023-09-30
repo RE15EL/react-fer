@@ -11,18 +11,26 @@ export const Article = ({title, subtitle})=>{
     )
 }
 
-//definicion de prop-types
-Article.propTypes = {
-    title: PropTypes.string.isRequired,
-    subtitle: PropTypes.string,
+// definicion de default-props, esta validacion se realiza antes
+// que la de las prop-types
+Article.defaultProps = {
+    subtitle: 'Default Subtitle',
+    title: 'Default Title',
 }
 
+// definicion de prop-types
+Article.propTypes = {
+    subtitle: PropTypes.string,
+    title: PropTypes.string.isRequired,
+}
+
+// componente PropUse
 export const PropsUse = () => {
     return (
         <>
             <Article 
                 title="Esto esta de pinga.."
-                subtitle="Pa que decirte, tu sabes..."
+                
             />
         </>
     )
