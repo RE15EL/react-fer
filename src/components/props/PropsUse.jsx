@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types'
+
 // componente Article
 export const Article = ({title, subtitle})=>{
     return (
@@ -7,6 +9,12 @@ export const Article = ({title, subtitle})=>{
         </>
         
     )
+}
+
+//definicion de prop-types
+Article.propTypes = {
+    title: PropTypes.string.isRequired,
+    subtitle: PropTypes.string,
 }
 
 export const PropsUse = () => {
