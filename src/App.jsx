@@ -6,7 +6,7 @@ function App() {
   return (
     <>   
 
-      <CounterProps />
+      <CounterProps value={10}/>
   
     </>
   )
