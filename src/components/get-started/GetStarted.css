@@ -1,0 +1,15 @@
+
+
+.content{
+    display: grid;
+    place-content: center;
+    grid-template-columns: repeat(autofill, 1fr);
+}
+
+.content p{
+    display: block;
+}
+
+li{
+    list-style: none !important;
+}

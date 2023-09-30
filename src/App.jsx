@@ -1,13 +1,12 @@
 import './App.css'
-import { Counter } from './components/counter/Counter';
-import { Wellcome } from './components/wellcome/Wellcome';
+import { PropsUse } from './components/props/PropsUse.jsx';
 
 function App() {
 
   return (
     <>   
 
-      <Counter/>
+      <PropsUse/>
   
     </>
   )
