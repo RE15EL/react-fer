@@ -1,12 +1,12 @@
 import './App.css'
-import { CounterProps } from './components/counter/Counter-props.jsx';
+import { MyCounter } from './components/hooks-use/MyCounter.jsx';
 
 function App() {
 
   return (
     <>   
 
-      <CounterProps value={10}/>
+      <MyCounter  />
   
     </>
   )
